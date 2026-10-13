@@ -8,7 +8,7 @@ on:
     branches: [main]
     paths-ignore:
       - "data/contributions.json"
-      - "assets/contrib-heatmap.svg"
+      - "assets/github-activity.svg"
 
 permissions:
   contents: write
@@ -46,7 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributions.json assets/contrib-heatmap.svg
+          git add data/contributions.json assets/github-activity.svg
           if git diff --cached --quiet; then
             echo "No profile-art changes to commit."
             exit 0

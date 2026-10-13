@@ -1,86 +1,102 @@
 <div align="center">
 
-<h3><code>ridham@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./assets/contrib-heatmap.svg" width="860" alt="Animated GitHub contribution heatmap" />
-
-<br><br>
-
-<h3><code>ridham@github ~ $ whoami</code></h3>
-
-<table>
-<tr>
-<td valign="top"><img src="./assets/ridham-ascii.svg" width="360" alt="Animated ASCII portrait of Ridham Pansara" /></td>
-<td valign="top"><img src="./assets/info-card.svg" width="500" alt="Terminal profile card for Ridham Pansara" /></td>
-</tr>
-</table>
+<img src="./assets/profile-hero.svg?v=3" width="100%" alt="Ridham Pansara — Cloud and DevOps Engineering" />
 
 <br>
 
-<a href="https://www.ridham-pansara-portfolio.online/"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.ridham-pansara-portfolio.online/"><img src="https://img.shields.io/badge/Portfolio-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/ridhampansara27/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://cloudopsinsight.tech"><img src="https://img.shields.io/badge/CloudOps_Insight-Live-0D9488?style=for-the-badge&logo=kubernetes&logoColor=white" alt="CloudOps Insight live application" /></a>
+<a href="https://cloudopsinsight.tech"><img src="https://img.shields.io/badge/CloudOps_Insight-Live-238636?style=for-the-badge&logo=kubernetes&logoColor=white" alt="CloudOps Insight" /></a>
 
 </div>
 
-## `ridham@github ~ $ cat featured-project.md`
+## ☁️ Featured Work — CloudOps Insight
 
-### ☁️ CloudOps Insight
+**CloudOps Insight** is a multi-tenant cloud operations and FinOps platform for AWS resource visibility, health monitoring, cost insight, incidents and recommendations. The application runs on Kubernetes and is delivered through reviewed GitOps workflows.
 
-**A multi-tenant cloud operations and FinOps platform** for AWS resource visibility, cost insight, health monitoring, incidents and recommendations — delivered on Kubernetes with reviewed GitOps workflows.
+**What this project demonstrates**
+
+- **Cloud-native architecture:** React, FastAPI, PostgreSQL, Redis and Celery
+- **Kubernetes operations:** OCI OKE, Helm, Argo CD, probes, scaling and controlled rollouts
+- **Infrastructure as Code:** Terraform-managed OCI networking, OKE, storage and recovery resources
+- **AWS integration:** STS cross-account access, inventory, CloudWatch and Cost Explorer
+- **Platform engineering:** CI/CD, image scanning, GitOps promotion, backups and rollback workflows
+- **Security:** tenant isolation, RBAC, short-lived cloud credentials and hardened delivery paths
 
 <div align="center">
 
-<a href="https://cloudopsinsight.tech"><strong>Live application</strong></a> ·
-<a href="https://github.com/ridhampansara27/cloudops-insight"><strong>Application source</strong></a> ·
-<a href="https://github.com/ridhampansara27/cloudops-gitops"><strong>GitOps</strong></a> ·
-<a href="https://github.com/ridhampansara27/cloudops-infrastructure"><strong>Infrastructure</strong></a>
-
-<br><br>
-
-<img src="https://raw.githubusercontent.com/ridhampansara27/cloudops-insight/main/docs/diagrams/system-overview.svg" width="900" alt="CloudOps Insight production architecture" />
+<a href="https://cloudopsinsight.tech"><img src="https://img.shields.io/badge/Open_Live_Platform-238636?style=flat-square&logo=googlechrome&logoColor=white" alt="Open live platform" /></a>
+<a href="https://github.com/ridhampansara27/cloudops-insight"><img src="https://img.shields.io/badge/Application-181717?style=flat-square&logo=github&logoColor=white" alt="Application repository" /></a>
+<a href="https://github.com/ridhampansara27/cloudops-gitops"><img src="https://img.shields.io/badge/GitOps-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="GitOps repository" /></a>
+<a href="https://github.com/ridhampansara27/cloudops-infrastructure"><img src="https://img.shields.io/badge/Infrastructure-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Infrastructure repository" /></a>
 
 </div>
 
-**Stack:** `React` · `FastAPI` · `PostgreSQL` · `Redis` · `Kubernetes` · `Helm` · `Argo CD` · `Terraform` · `OCI OKE` · `AWS` · `GitHub Actions`
+<details>
+<summary><strong>View CloudOps Insight architecture</strong></summary>
 
-**Engineering highlights:** multi-tenant RBAC · AWS STS cross-account access · cloud inventory and cost synchronization · background workers · CI/CD and container scanning · Terraform-managed infrastructure · controlled GitOps delivery
+<br>
 
-## `ridham@github ~ $ ls projects/`
+<div align="center">
+<img src="https://raw.githubusercontent.com/ridhampansara27/cloudops-insight/main/docs/diagrams/system-overview.svg" width="100%" alt="CloudOps Insight production architecture" />
+</div>
 
-| Project | What it demonstrates |
-|---|---|
-| [`cloudops-insight`](https://github.com/ridhampansara27/cloudops-insight) | Full-stack CloudOps/FinOps product, API design, AWS integrations and observability |
-| [`cloudops-gitops`](https://github.com/ridhampansara27/cloudops-gitops) | Kubernetes, Helm, Argo CD, deployment controls and operational recovery |
-| [`cloudops-infrastructure`](https://github.com/ridhampansara27/cloudops-infrastructure) | Terraform, OCI networking, OKE, persistence, backups and infrastructure lifecycle |
-| [`aws-ecs-terraform-task-manager`](https://github.com/ridhampansara27/aws-ecs-terraform-task-manager) | AWS ECS and infrastructure-as-code practice |
-| [`binance-trading-agent`](https://github.com/ridhampansara27/binance-trading-agent) | Python automation with EMA/RSI signals and trend-based symbol selection |
+</details>
 
-## `ridham@github ~ $ cat stack.txt`
+## 🧰 Core Stack
 
-```text
-Cloud       AWS · Azure · GCP · OCI
-Platform    Kubernetes · Docker · Helm · Argo CD
-IaC         Terraform
-CI/CD       GitHub Actions · Jenkins · Git
-Code        Python · TypeScript · Bash
-Backend     FastAPI · PostgreSQL · Redis
-Focus       Cloud Native · DevOps · Platform Engineering · Cloud Security · Observability
-```
+<div align="center">
 
-## `ridham@github ~ $ cat education.txt`
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+<img src="https://img.shields.io/badge/OCI-F80000?style=flat-square&logo=oracle&logoColor=white" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" />
+<img src="https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+
+</div>
+
+## 🚀 Selected Projects
+
+| Project | Engineering focus | Key technologies |
+|---|---|---|
+| **[CloudOps Insight](https://github.com/ridhampansara27/cloudops-insight)** | Cloud operations, FinOps, monitoring and incident workflows | React · FastAPI · AWS · PostgreSQL |
+| **[CloudOps GitOps](https://github.com/ridhampansara27/cloudops-gitops)** | Declarative Kubernetes delivery and operational controls | Kubernetes · Helm · Argo CD |
+| **[CloudOps Infrastructure](https://github.com/ridhampansara27/cloudops-infrastructure)** | Reproducible cloud infrastructure and recovery | Terraform · OCI · OKE |
+| **[AWS ECS Terraform Task Manager](https://github.com/ridhampansara27/aws-ecs-terraform-task-manager)** | AWS container infrastructure as code | AWS · ECS · Terraform |
+| **[Binance Trading Agent](https://github.com/ridhampansara27/binance-trading-agent)** | Python automation and signal-driven workflows | Python · EMA · RSI |
+
+## 📈 GitHub Activity
+
+<div align="center">
+
+<img src="./assets/github-activity.svg?v=3" width="100%" alt="Ridham Pansara GitHub activity" />
+
+</div>
+
+## 🎓 Education & Focus
 
 **M.Sc. Computer Engineering for IoT Systems** — Hochschule Nordhausen, Germany  
 **B.E. Computer Engineering** — Gujarat Technological University, India
 
-🎯 Currently interested in **Master's thesis, internship and working-student opportunities** in Cloud, DevOps, Platform Engineering and related infrastructure topics.
+My current engineering focus is **Cloud Native Systems · Kubernetes · DevOps · Platform Engineering · Infrastructure as Code · Cloud Security · Observability**.
 
-## `ridham@github ~ $ ./connect.sh`
+> 🎯 Open to **Master's thesis, internship and working-student opportunities** in Cloud, DevOps, Platform Engineering and related infrastructure topics.
 
-🌐 [Portfolio](https://www.ridham-pansara-portfolio.online/) · 💼 [LinkedIn](https://www.linkedin.com/in/ridhampansara27/) · ☁️ [CloudOps Insight](https://cloudopsinsight.tech)
+## 🤝 Connect
 
 <div align="center">
 
-<sub><code>build → automate → observe → improve</code></sub>
+**[Portfolio](https://www.ridham-pansara-portfolio.online/)** · **[LinkedIn](https://www.linkedin.com/in/ridhampansara27/)** · **[CloudOps Insight](https://cloudopsinsight.tech)**
+
+<br>
+
+<sub>Designing reliable infrastructure · automating delivery · learning continuously</sub>
 
 </div>
