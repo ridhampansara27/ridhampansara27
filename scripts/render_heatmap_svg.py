@@ -82,7 +82,7 @@ def main() -> None:
     parts.append("</svg>")
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text("\\n".join(parts), encoding="utf-8")
+    OUTPUT.write_text("\n".join(parts), encoding="utf-8")
     print(f"wrote {OUTPUT}")
 
 if __name__ == "__main__":
