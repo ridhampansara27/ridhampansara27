@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="340" viewBox="0 0 360 340" role="img" aria-labelledby="title desc">
+<title id="title">Animated ASCII portrait of Ridham Pansara</title>
+<desc id="desc">A monochrome terminal-style ASCII portrait that reveals row by row.</desc>
+<rect width="100%" height="100%" rx="14" fill="#0d1117" stroke="#30363d"/>
+<rect x="16" y="14" width="8" height="8" rx="4" fill="#ff5f56"/>
+<rect x="30" y="14" width="8" height="8" rx="4" fill="#ffbd2e"/>
+<rect x="44" y="14" width="8" height="8" rx="4" fill="#27c93f"/>
+<text x="180" y="22" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">ridham@github:~</text>
+<defs>
+<clipPath id="row0"><rect x="18" y="25.35" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.000s" fill="freeze"/></rect></clipPath>
+<clipPath id="row1"><rect x="18" y="31.50" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.035s" fill="freeze"/></rect></clipPath>
+<clipPath id="row2"><rect x="18" y="37.65" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.070s" fill="freeze"/></rect></clipPath>
+<clipPath id="row3"><rect x="18" y="43.80" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.105s" fill="freeze"/></rect></clipPath>
+<clipPath id="row4"><rect x="18" y="49.95" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.140s" fill="freeze"/></rect></clipPath>
+<clipPath id="row5"><rect x="18" y="56.10" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.175s" fill="freeze"/></rect></clipPath>
+<clipPath id="row6"><rect x="18" y="62.25" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.210s" fill="freeze"/></rect></clipPath>
+<clipPath id="row7"><rect x="18" y="68.40" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.245s" fill="freeze"/></rect></clipPath>
+<clipPath id="row8"><rect x="18" y="74.55" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.280s" fill="freeze"/></rect></clipPath>
+<clipPath id="row9"><rect x="18" y="80.70" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.315s" fill="freeze"/></rect></clipPath>
+<clipPath id="row10"><rect x="18" y="86.85" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.350s" fill="freeze"/></rect></clipPath>
+<clipPath id="row11"><rect x="18" y="93.00" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.385s" fill="freeze"/></rect></clipPath>
+<clipPath id="row12"><rect x="18" y="99.15" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.420s" fill="freeze"/></rect></clipPath>
+<clipPath id="row13"><rect x="18" y="105.30" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.455s" fill="freeze"/></rect></clipPath>
+<clipPath id="row14"><rect x="18" y="111.45" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.490s" fill="freeze"/></rect></clipPath>
+<clipPath id="row15"><rect x="18" y="117.60" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.525s" fill="freeze"/></rect></clipPath>
+<clipPath id="row16"><rect x="18" y="123.75" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.560s" fill="freeze"/></rect></clipPath>
+<clipPath id="row17"><rect x="18" y="129.90" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.595s" fill="freeze"/></rect></clipPath>
+<clipPath id="row18"><rect x="18" y="136.05" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.630s" fill="freeze"/></rect></clipPath>
+<clipPath id="row19"><rect x="18" y="142.20" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.665s" fill="freeze"/></rect></clipPath>
+<clipPath id="row20"><rect x="18" y="148.35" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.700s" fill="freeze"/></rect></clipPath>
+<clipPath id="row21"><rect x="18" y="154.50" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.735s" fill="freeze"/></rect></clipPath>
+<clipPath id="row22"><rect x="18" y="160.65" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.770s" fill="freeze"/></rect></clipPath>
+<clipPath id="row23"><rect x="18" y="166.80" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.805s" fill="freeze"/></rect></clipPath>
+<clipPath id="row24"><rect x="18" y="172.95" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.840s" fill="freeze"/></rect></clipPath>
+<clipPath id="row25"><rect x="18" y="179.10" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.875s" fill="freeze"/></rect></clipPath>
+<clipPath id="row26"><rect x="18" y="185.25" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.910s" fill="freeze"/></rect></clipPath>
+<clipPath id="row27"><rect x="18" y="191.40" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.945s" fill="freeze"/></rect></clipPath>
+<clipPath id="row28"><rect x="18" y="197.55" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="0.980s" fill="freeze"/></rect></clipPath>
+<clipPath id="row29"><rect x="18" y="203.70" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.015s" fill="freeze"/></rect></clipPath>
+<clipPath id="row30"><rect x="18" y="209.85" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.050s" fill="freeze"/></rect></clipPath>
+<clipPath id="row31"><rect x="18" y="216.00" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.085s" fill="freeze"/></rect></clipPath>
+<clipPath id="row32"><rect x="18" y="222.15" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.120s" fill="freeze"/></rect></clipPath>
+<clipPath id="row33"><rect x="18" y="228.30" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.155s" fill="freeze"/></rect></clipPath>
+<clipPath id="row34"><rect x="18" y="234.45" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.190s" fill="freeze"/></rect></clipPath>
+<clipPath id="row35"><rect x="18" y="240.60" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.225s" fill="freeze"/></rect></clipPath>
+<clipPath id="row36"><rect x="18" y="246.75" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.260s" fill="freeze"/></rect></clipPath>
+<clipPath id="row37"><rect x="18" y="252.90" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.295s" fill="freeze"/></rect></clipPath>
+<clipPath id="row38"><rect x="18" y="259.05" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.330s" fill="freeze"/></rect></clipPath>
+<clipPath id="row39"><rect x="18" y="265.20" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.365s" fill="freeze"/></rect></clipPath>
+<clipPath id="row40"><rect x="18" y="271.35" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.400s" fill="freeze"/></rect></clipPath>
+<clipPath id="row41"><rect x="18" y="277.50" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.435s" fill="freeze"/></rect></clipPath>
+<clipPath id="row42"><rect x="18" y="283.65" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.470s" fill="freeze"/></rect></clipPath>
+<clipPath id="row43"><rect x="18" y="289.80" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.505s" fill="freeze"/></rect></clipPath>
+<clipPath id="row44"><rect x="18" y="295.95" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.540s" fill="freeze"/></rect></clipPath>
+<clipPath id="row45"><rect x="18" y="302.10" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.575s" fill="freeze"/></rect></clipPath>
+<clipPath id="row46"><rect x="18" y="308.25" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.610s" fill="freeze"/></rect></clipPath>
+<clipPath id="row47"><rect x="18" y="314.40" width="0" height="7.15"><animate attributeName="width" from="0" to="322" dur="0.42s" begin="1.645s" fill="freeze"/></rect></clipPath>
+</defs>
+<text x="18" y="31.00" clip-path="url(#row0)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%@@@@@@@@@@@@@@@@@@@</text>
+<text x="18" y="37.15" clip-path="url(#row1)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@#*+==----------==+*#%@@@@@@@@@@@@</text>
+<text x="18" y="43.30" clip-path="url(#row2)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@#+-::::::::-------------==+*%@@@@@@@@</text>
+<text x="18" y="49.45" clip-path="url(#row3)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@#=:...:::::::::::::------====--=*%@@@@@@</text>
+<text x="18" y="55.60" clip-path="url(#row4)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@*-....::::::+#**+-=+=-=+------====+%@@@@@@</text>
+<text x="18" y="61.75" clip-path="url(#row5)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@+: ......::--*@@@@@@@@@@@@*-=-----==+%@@@@@@</text>
+<text x="18" y="67.90" clip-path="url(#row6)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@+. ......:+#%@@@@@@@@@@@@@@@@#*+-----=+%@@@@@%</text>
+<text x="18" y="74.05" clip-path="url(#row7)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@#:  ......-+@@@@@@@@@@@@@@@@@@@@@%+-----+%@@@@@@</text>
+<text x="18" y="80.20" clip-path="url(#row8)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@+  .......=+*@@@@@@@@@@@@%@@@@@%@@%%*=---+%@@@@@@</text>
+<text x="18" y="86.35" clip-path="url(#row9)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@-    .....+*#@@@@@@@@@@@@@@%@@@@@@@@@%===-=#@@@@@@</text>
+<text x="18" y="92.50" clip-path="url(#row10)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@%:       . -%%@@@@@@@@@@@%@@@##@@@@@@@@#%*+-=#@@@@@@</text>
+<text x="18" y="98.65" clip-path="url(#row11)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@%:        . =%@@@@@@@@@@@@@@@@@@@%%@####@@#+=+#@@@@@%</text>
+<text x="18" y="104.80" clip-path="url(#row12)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@:           -%@@@@@@@@@@@@@@@@%#++--==-=%@@%*=#@@@@@%</text>
+<text x="18" y="110.95" clip-path="url(#row13)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@-            =@@@@@@@@@%#####*==-..    ..+#====#@@@@@%</text>
+<text x="18" y="117.10" clip-path="url(#row14)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@+             -@@@@@@@@*++++==-:.         :-:--=#@@@@@%</text>
+<text x="18" y="123.25" clip-path="url(#row15)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@#              -@@@@@@@@+++++**###*-.  :=**+----=#@@@@@%</text>
+<text x="18" y="129.40" clip-path="url(#row16)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@:               %@@@@@@#==+*##*++%%#-.:+##**=:--=#@@@@@%</text>
+<text x="18" y="135.55" clip-path="url(#row17)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@*                +@##%@@*==+*#%%%+=**= .*%+*+:---=#@@@@@%</text>
+<text x="18" y="141.70" clip-path="url(#row18)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@-                .+++=#@+-==-+**+=----. :==+-:---=#@@@@@%</text>
+<text x="18" y="147.85" clip-path="url(#row19)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">#..                ==-#*#=-=--:......--.   . .:---=#@@@@@%</text>
+<text x="18" y="154.00" clip-path="url(#row20)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">= .                -==%**+-==-:.    :=.:      .---=#@@@@@@</text>
+<text x="18" y="160.15" clip-path="url(#row21)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">:..                :++*#*#===--:.   =+**:-.   .---=*@@@@@@</text>
+<text x="18" y="166.30" clip-path="url(#row22)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">....                -==##%#*+==-:. .=%@%%@-   :---=*@@@@@%</text>
+<text x="18" y="172.45" clip-path="url(#row23)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">....                 -=*@@%%###*=-+%@%*=+#%+:-+---=*@@@@@%</text>
+<text x="18" y="178.60" clip-path="url(#row24)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">.....                 =**@@@@@@%##@%*+-::=%@+#*:--=*@@@@@@</text>
+<text x="18" y="184.75" clip-path="url(#row25)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">......               :@%=@@@@@@@#@%***+=--*@#%-:--=*@@@@@@</text>
+<text x="18" y="190.90" clip-path="url(#row26)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">........          . :@@@+#@@@@@@@@%%#@@@%##@@*:---=*@@@@@@</text>
+<text x="18" y="197.05" clip-path="url(#row27)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">:::............... :@@@@@#@@@@@@@@@@%%#*#%@@@-:---=*@@@@@@</text>
+<text x="18" y="203.20" clip-path="url(#row28)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">-::::::::.........:%@@@@@@@@@@@@@@@@@@@@@@@@*::---=*@@@@@@</text>
+<text x="18" y="209.35" clip-path="url(#row29)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">====-----------:.:%@@@@@@@@@@@@@@@@@@@@@@@@%-:-----*@@@@@@</text>
+<text x="18" y="215.50" clip-path="url(#row30)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">#***##########+-:%@@@@@@@@@%#%%%@@@@@@@@@@@#::-----*@@@@@@</text>
+<text x="18" y="221.65" clip-path="url(#row31)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">%@@@@@@@@@@@@@#+#@@@@@@@@@@@+=####%%%%%#+=@@*::---=*@@@@@@</text>
+<text x="18" y="227.80" clip-path="url(#row32)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@..+*****+=:+:+@@#-:--=*@@@@@@</text>
+<text x="18" y="233.95" clip-path="url(#row33)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%  :===--:-@-.@@@#:--=*@@@@@@</text>
+<text x="18" y="240.10" clip-path="url(#row34)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@+   :--::+@: *@@@*:-=*@@@@@@</text>
+<text x="18" y="246.25" clip-path="url(#row35)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@:   .::=%%. :@@@@*==*@@@@@@</text>
+<text x="18" y="252.40" clip-path="url(#row36)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%...  .+%+ :.%@@@@@%%@@@@@@</text>
+<text x="18" y="258.55" clip-path="url(#row37)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@* .   == -#:%@@@@%@@@@@@@@</text>
+<text x="18" y="264.70" clip-path="url(#row38)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:    =:  =+@@@@@@%@@@@@@@</text>
+<text x="18" y="270.85" clip-path="url(#row39)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%    :.   =@@@@@@%@@@@@@@</text>
+<text x="18" y="277.00" clip-path="url(#row40)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+   .     %@@@@@@@@@@@@@</text>
+<text x="18" y="283.15" clip-path="url(#row41)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-        *@@@@@@%@@@@@@</text>
+<text x="18" y="289.30" clip-path="url(#row42)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%        -@@@@@@@%@@@@@</text>
+<text x="18" y="295.45" clip-path="url(#row43)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*       .@@@@@@@%@@@@@</text>
+<text x="18" y="301.60" clip-path="url(#row44)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-       #@@@@@@@@@@@@</text>
+<text x="18" y="307.75" clip-path="url(#row45)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#       =@@@@@@@%@@@@</text>
+<text x="18" y="313.90" clip-path="url(#row46)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=      :@@@@@@@%%@@@</text>
+<text x="18" y="320.05" clip-path="url(#row47)" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="5.65" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%.      %@@@@@@@@@@@</text>
+<text x="18" y="327" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">$ portrait --ascii --cloud-native</text>
+</svg>

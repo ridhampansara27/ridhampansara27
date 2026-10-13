@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="340" viewBox="0 0 500 340" role="img" aria-labelledby="title desc">
+<title id="title">Ridham Pansara terminal profile card</title>
+<desc id="desc">A terminal-style card summarizing cloud, DevOps, education and career focus.</desc>
+<rect width="100%" height="100%" rx="14" fill="#0d1117" stroke="#30363d"/>
+<rect x="16" y="14" width="8" height="8" rx="4" fill="#ff5f56"/>
+<rect x="30" y="14" width="8" height="8" rx="4" fill="#ffbd2e"/>
+<rect x="44" y="14" width="8" height="8" rx="4" fill="#27c93f"/>
+<text x="250" y="22" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">whoami</text>
+<text x="24" y="54" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-weight="700" font-size="17">RIDHAM PANSARA</text>
+<text x="24" y="75" fill="#3fb950" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">cloud-native • automation • platform engineering</text>
+<g opacity="0" transform="translate(0 4)">
+<animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.18s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 4" to="0 0" dur="0.24s" begin="0.18s" fill="freeze"/>
+<text x="24" y="108" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">role</text>
+<text x="118" y="108" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">Cloud &amp; DevOps Engineering</text>
+</g>
+<g opacity="0" transform="translate(0 4)">
+<animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.28s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 4" to="0 0" dur="0.24s" begin="0.28s" fill="freeze"/>
+<text x="24" y="135" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">study</text>
+<text x="118" y="135" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">M.Sc. Computer Engineering for IoT Systems</text>
+</g>
+<g opacity="0" transform="translate(0 4)">
+<animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.38s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 4" to="0 0" dur="0.24s" begin="0.38s" fill="freeze"/>
+<text x="24" y="162" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">current</text>
+<text x="118" y="162" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">CloudOps Insight</text>
+</g>
+<g opacity="0" transform="translate(0 4)">
+<animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.48s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 4" to="0 0" dur="0.24s" begin="0.48s" fill="freeze"/>
+<text x="24" y="189" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">focus</text>
+<text x="118" y="189" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">Kubernetes · Terraform · GitOps</text>
+</g>
+<g opacity="0" transform="translate(0 4)">
+<animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.58s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 4" to="0 0" dur="0.24s" begin="0.58s" fill="freeze"/>
+<text x="24" y="216" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">cloud</text>
+<text x="118" y="216" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">AWS · OCI · Azure · GCP</text>
+</g>
+<g opacity="0" transform="translate(0 4)">
+<animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.68s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 4" to="0 0" dur="0.24s" begin="0.68s" fill="freeze"/>
+<text x="24" y="243" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">automation</text>
+<text x="118" y="243" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">GitHub Actions · Jenkins · Argo CD</text>
+</g>
+<g opacity="0" transform="translate(0 4)">
+<animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.78s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 4" to="0 0" dur="0.24s" begin="0.78s" fill="freeze"/>
+<text x="24" y="270" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">code</text>
+<text x="118" y="270" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">Python · TypeScript · Bash</text>
+</g>
+<g opacity="0" transform="translate(0 4)">
+<animate attributeName="opacity" from="0" to="1" dur="0.24s" begin="0.88s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 4" to="0 0" dur="0.24s" begin="0.88s" fill="freeze"/>
+<text x="24" y="297" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">status</text>
+<text x="118" y="297" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">Open to Thesis · Internship · Working Student</text>
+</g>
+<line x1="24" y1="306" x2="476" y2="306" stroke="#21262d"/>
+<text x="24" y="326" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">$ build --automate --observe --improve</text>
+</svg>
