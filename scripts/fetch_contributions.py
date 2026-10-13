@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 USERNAME = "ridhampansara27"
 URL = f"https://github.com/users/{USERNAME}/contributions"
 OUTPUT = Path("data/contributions.json")
-COUNT_RE = re.compile(r"([\\d,]+)\\s+contribution", re.I)
+COUNT_RE = re.compile(r"([\d,]+)\s+contribution", re.I)
 
 def parse_count(cell, tooltip_map: dict[str, str]) -> int:
     cell_id = cell.get("id", "")
@@ -125,7 +125,7 @@ def main() -> None:
     }
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(json.dumps(payload, indent=2) + "\\n", encoding="utf-8")
+    OUTPUT.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUTPUT} with {len(normalized)} days")
 
 if __name__ == "__main__":
