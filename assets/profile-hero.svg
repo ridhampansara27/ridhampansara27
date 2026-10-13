@@ -1,93 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="280" viewBox="0 0 920 280" role="img" aria-labelledby="title desc">
-  <title id="title">Ridham Pansara — Cloud and DevOps Engineering</title>
-  <desc id="desc">A modern animated profile banner highlighting cloud, Kubernetes, Terraform, GitOps and platform engineering.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="55%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#0b1220"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#58a6ff"/>
-      <stop offset="50%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#2dd4bf"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity=".24"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#21262d" stroke-opacity=".55" stroke-width="1"/>
-    </pattern>
-    <filter id="soft">
-      <feGaussianBlur stdDeviation="14"/>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="220" viewBox="0 0 920 220" role="img" aria-labelledby="title desc">
+<title id="title">Ridham Pansara — Cloud and DevOps Engineer</title>
+<desc id="desc">Professional profile banner highlighting cloud engineering, Kubernetes, Terraform and GitOps.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0d1117"/>
+    <stop offset="55%" stop-color="#111827"/>
+    <stop offset="100%" stop-color="#0b1220"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#58a6ff"/>
+    <stop offset="50%" stop-color="#a371f7"/>
+    <stop offset="100%" stop-color="#2dd4bf"/>
+  </linearGradient>
+  <radialGradient id="glow">
+    <stop offset="0%" stop-color="#58a6ff" stop-opacity=".20"/>
+    <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
 
-  <rect x="1" y="1" width="918" height="278" rx="20" fill="url(#bg)" stroke="#30363d"/>
-  <rect x="1" y="1" width="918" height="278" rx="20" fill="url(#grid)" opacity=".34"/>
+<rect x="1" y="1" width="918" height="218" rx="18" fill="url(#bg)" stroke="#30363d"/>
+<circle cx="810" cy="84" r="120" fill="url(#glow)">
+  <animate attributeName="opacity" values=".45;.85;.45" dur="5s" repeatCount="indefinite"/>
+</circle>
 
-  <circle cx="782" cy="82" r="118" fill="url(#glow)" filter="url(#soft)">
-    <animate attributeName="opacity" values=".55;.9;.55" dur="5s" repeatCount="indefinite"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <text x="42" y="45" fill="#79c0ff" font-size="13" font-weight="650" letter-spacing="2.2">CLOUD · DEVOPS · PLATFORM ENGINEERING</text>
+  <text x="42" y="91" fill="#f0f6fc" font-size="38" font-weight="760">Ridham Pansara</text>
+  <text x="42" y="122" fill="#c9d1d9" font-size="18">Building reliable cloud-native platforms and automated infrastructure.</text>
+
+  <g transform="translate(42 145)" font-size="13" font-weight="650">
+    <rect width="102" height="29" rx="14.5" fill="#11233a" stroke="#245b8f"/>
+    <text x="51" y="19" text-anchor="middle" fill="#79c0ff">Kubernetes</text>
+    <rect x="113" width="98" height="29" rx="14.5" fill="#20162f" stroke="#5b3f83"/>
+    <text x="162" y="19" text-anchor="middle" fill="#c4a7ff">Terraform</text>
+    <rect x="222" width="78" height="29" rx="14.5" fill="#14221a" stroke="#285d38"/>
+    <text x="261" y="19" text-anchor="middle" fill="#56d364">GitOps</text>
+    <rect x="311" width="68" height="29" rx="14.5" fill="#2b1a12" stroke="#8a4b20"/>
+    <text x="345" y="19" text-anchor="middle" fill="#ffa657">AWS</text>
+  </g>
+
+  <rect x="42" y="188" width="315" height="21" rx="10.5" fill="#12271f" stroke="#276749"/>
+  <text x="199.5" y="203" text-anchor="middle" fill="#7ee787" font-size="11.5" font-weight="650">OPEN TO THESIS · INTERNSHIP · WORKING STUDENT</text>
+</g>
+
+<g transform="translate(654 55)" font-family="Inter,Segoe UI,Arial,sans-serif">
+  <path d="M28 55 H102 H176" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="28" cy="55" r="27" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+  <circle cx="102" cy="55" r="27" fill="#0d1117" stroke="#a371f7" stroke-width="2"/>
+  <circle cx="176" cy="55" r="27" fill="#0d1117" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="28" y="60" text-anchor="middle" fill="#79c0ff" font-size="12" font-weight="700">IaC</text>
+  <text x="102" y="60" text-anchor="middle" fill="#c4a7ff" font-size="11" font-weight="700">K8S</text>
+  <text x="176" y="60" text-anchor="middle" fill="#5eead4" font-size="11" font-weight="700">CD</text>
+  <circle r="5" fill="#f0f6fc">
+    <animateMotion dur="3.3s" repeatCount="indefinite" path="M28 55 H176"/>
   </circle>
+  <text x="102" y="102" text-anchor="middle" fill="#8b949e" font-size="11">provision → deploy → operate</text>
+</g>
 
-  <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <text x="44" y="58" fill="#8b949e" font-size="15" letter-spacing="2">CLOUD • DEVOPS • PLATFORM ENGINEERING</text>
-
-    <text x="44" y="115" fill="#f0f6fc" font-size="42" font-weight="750">Ridham Pansara</text>
-
-    <text x="44" y="151" fill="#c9d1d9" font-size="19">
-      Building cloud-native systems, automated infrastructure and reliable delivery platforms.
-    </text>
-
-    <g transform="translate(44 184)" font-size="14" font-weight="650">
-      <rect width="112" height="32" rx="16" fill="#132238" stroke="#245b8f"/>
-      <text x="56" y="21" text-anchor="middle" fill="#79c0ff">Kubernetes</text>
-
-      <rect x="124" width="106" height="32" rx="16" fill="#1a1730" stroke="#5d45a8"/>
-      <text x="177" y="21" text-anchor="middle" fill="#c4a7ff">Terraform</text>
-
-      <rect x="242" width="92" height="32" rx="16" fill="#12271f" stroke="#276749"/>
-      <text x="288" y="21" text-anchor="middle" fill="#56d364">GitOps</text>
-
-      <rect x="346" width="88" height="32" rx="16" fill="#2b1a12" stroke="#8a4b20"/>
-      <text x="390" y="21" text-anchor="middle" fill="#ffa657">AWS</text>
-
-      <rect x="446" width="82" height="32" rx="16" fill="#2b1718" stroke="#8f3131"/>
-      <text x="487" y="21" text-anchor="middle" fill="#ff7b72">OCI</text>
-    </g>
-
-    <text x="44" y="248" fill="#8b949e" font-size="14">
-      M.Sc. Computer Engineering for IoT Systems · Germany · Open to thesis / internship / working-student roles
-    </text>
-  </g>
-
-  <!-- Decorative delivery pipeline -->
-  <g transform="translate(650 69)" font-family="Inter,Segoe UI,Arial,sans-serif">
-    <path d="M38 58 H102 H166 H230" stroke="url(#accent)" stroke-width="3" fill="none" stroke-linecap="round" opacity=".72"/>
-    <g>
-      <circle cx="38" cy="58" r="24" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
-      <text x="38" y="63" text-anchor="middle" fill="#79c0ff" font-size="12" font-weight="700">GIT</text>
-    </g>
-    <g>
-      <circle cx="102" cy="58" r="24" fill="#0d1117" stroke="#a371f7" stroke-width="2"/>
-      <text x="102" y="63" text-anchor="middle" fill="#c4a7ff" font-size="12" font-weight="700">CI</text>
-    </g>
-    <g>
-      <circle cx="166" cy="58" r="24" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
-      <text x="166" y="63" text-anchor="middle" fill="#56d364" font-size="11" font-weight="700">K8S</text>
-    </g>
-    <g>
-      <circle cx="230" cy="58" r="24" fill="#0d1117" stroke="#2dd4bf" stroke-width="2"/>
-      <text x="230" y="63" text-anchor="middle" fill="#5eead4" font-size="10" font-weight="700">OBS</text>
-    </g>
-
-    <circle r="5" fill="#f0f6fc">
-      <animateMotion dur="3.6s" repeatCount="indefinite" path="M38 58 H230"/>
-    </circle>
-
-    <text x="134" y="108" text-anchor="middle" fill="#8b949e" font-size="12" letter-spacing="1">BUILD → SHIP → OPERATE</text>
-  </g>
-
-  <rect x="1" y="274" width="918" height="5" rx="2.5" fill="url(#accent)"/>
+<rect x="1" y="215" width="918" height="4" rx="2" fill="url(#line)"/>
 </svg>
