@@ -1,0 +1,96 @@
+# Regenerates the stats cards and the contribution snake every day and publishes
+# them to the `output` branch, which the README reads from. Generating them here
+# (instead of hot-linking public card services) keeps the profile working when
+# those services are rate-limited. The `output` branch is force-pushed as a
+# single commit each run, so `main` history stays clean.
+
+name: Refresh profile cards
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # daily at 04:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/profile-cards.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PROFILE_USER: ${{ github.repository_owner }}
+      DARK: bg_color=0e1726&title_color=5cc8ff&text_color=e8eef7&icon_color=4fd18b&ring_color=ffb547&border_color=26384f&border_radius=12
+      LIGHT: bg_color=ffffff&title_color=0a7cbd&text_color=13203a&icon_color=16834a&ring_color=a86200&border_color=d3dce8&border_radius=12
+    steps:
+      - name: Prepare folders
+        run: mkdir -p cards snake
+
+      # fail_on_error keeps yesterday's cards instead of publishing an error card
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ env.PROFILE_USER }}&show_icons=true&include_all_commits=true&${{ env.DARK }}
+          path: cards/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ env.PROFILE_USER }}&show_icons=true&include_all_commits=true&${{ env.LIGHT }}
+          path: cards/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Top languages (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ env.PROFILE_USER }}&layout=compact&langs_count=6&${{ env.DARK }}
+          path: cards/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Top languages (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ env.PROFILE_USER }}&layout=compact&langs_count=6&${{ env.LIGHT }}
+          path: cards/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ env.PROFILE_USER }}
+          outputs: |
+            snake/snake-dark.svg?palette=github-dark&color_snake=#ffb547&color_dots=#132036,#0e4d64,#11718c,#22a3c9,#5cc8ff
+            snake/snake-light.svg?palette=github-light&color_snake=#a86200&color_dots=#e6ecf3,#b9e2f7,#79c6ec,#2e9fd6,#0a7cbd
+
+      # snk runs in Docker as root, so copy everything to a directory we own first
+      - name: Publish to the output branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          out="$RUNNER_TEMP/output"
+          mkdir -p "$out"
+          cp cards/*.svg snake/*.svg "$out"/
+          cd "$out"
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Refresh profile cards"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+          ls -1 "$out"
