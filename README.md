@@ -28,7 +28,7 @@
 
 I'm studying Computer Engineering for IoT Systems at Hochschule Nordhausen and spend most of my time on the infrastructure side: Terraform for anything that can be declared, GitOps for anything that ships, and scanning and least privilege built into the pipeline instead of added later. The clearest example is **CloudOps Insight**, a multi-tenant FinOps platform I built and run in production on Kubernetes.
 
-Click a command to run it.
+Click a command to see its output.
 
 <details>
 <summary><code>$ terraform plan -target=module.ridham</code></summary>
@@ -166,8 +166,8 @@ flowchart TB
 <p align="center">
   <a href="https://skillicons.dev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,azure,gcp,terraform,docker,kubernetes,githubactions,gitlab,jenkins,linux,bash,git,py,ts,fastapi,react,postgres,redis,prometheus,grafana&perline=10&theme=dark">
-      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,azure,gcp,terraform,docker,kubernetes,githubactions,gitlab,jenkins,linux,bash,git,py,ts,fastapi,react,postgres,redis,prometheus,grafana&perline=10&theme=light">
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws%2Cazure%2Cgcp%2Cterraform%2Cdocker%2Ckubernetes%2Cgithubactions%2Cgitlab%2Cjenkins%2Clinux%2Cbash%2Cgit%2Cpy%2Cts%2Cfastapi%2Creact%2Cpostgres%2Credis%2Cprometheus%2Cgrafana&perline=10&theme=dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws%2Cazure%2Cgcp%2Cterraform%2Cdocker%2Ckubernetes%2Cgithubactions%2Cgitlab%2Cjenkins%2Clinux%2Cbash%2Cgit%2Cpy%2Cts%2Cfastapi%2Creact%2Cpostgres%2Credis%2Cprometheus%2Cgrafana&perline=10&theme=light">
       <img alt="AWS, Azure, GCP, Terraform, Docker, Kubernetes, GitHub Actions, GitLab, Jenkins, Linux, Bash, Git, Python, TypeScript, FastAPI, React, PostgreSQL, Redis, Prometheus, Grafana" src="https://skillicons.dev/icons?i=aws,azure,gcp,terraform,docker,kubernetes,githubactions,gitlab,jenkins,linux,bash,git,py,ts,fastapi,react,postgres,redis,prometheus,grafana&perline=10&theme=dark">
     </picture>
   </a>
